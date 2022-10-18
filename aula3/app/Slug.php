@@ -1,5 +1,5 @@
 <?php
-
+namespace App;
 class Slug{
     private $texto;
     public function __construct($texto){
@@ -11,6 +11,4 @@ class Slug{
     }
 }
 
-$slug = new Slug("Teste de backend usando php");
-echo $slug->converter();
-//composer require --dev phpunit/phpunit
+
