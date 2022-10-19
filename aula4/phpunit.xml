@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php" colors="true">
+  <testsuites>
+    <testsuite name="testes_back-end">
+      <directory suffix="Test.php">./test/</directory> <!--ESTAMOS INFORMANDO QUE TODO ARQUIVO DE TESTE TERA A TERMINAÇÃO 'TEST.PHP' NO FINAL DO NOME DO ARQUIVO ALEM DISSO INFORMAMOS TAMBEM QUE A PASTA ONDE FICARAM OS ARQUIVOS DE TESTES SERA A PASTA 'TEST'-->>
+    </testsuite>
+  </testsuites>
+</phpunit>
