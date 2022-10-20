@@ -9,7 +9,7 @@ class Cliente{
     private $preferencias = [];
 
     public function __construct($nome = "", $email = "", $cod_cliente = ""){
-        $this->nome - $nome;
+        $this->nome = $nome;
         $this->email = $email;
         $this->cod_cliente = $cod_cliente;
     }
